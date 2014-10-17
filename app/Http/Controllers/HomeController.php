@@ -20,7 +20,16 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('hello');
+		return 'this is a test';
+	}
+
+
+	/**
+	 * @Get("/test")
+	 */
+	public function test()
+	{
+		return 'this is a test';
 	}
 
 }
