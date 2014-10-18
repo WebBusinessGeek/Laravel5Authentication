@@ -20,7 +20,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return 'this is a test';
+		return view('templates.master');
 	}
 
 
