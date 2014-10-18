@@ -7,14 +7,14 @@
     <title>Laravel 5 Authentication</title>
 
     <!-- Bootstrap -->
-    <link href="angular1.3-bootstrap3.2/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
-    <link href="angular1.3-bootstrap3.2/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/angular1.3-bootstrap3.2/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/angular1.3-bootstrap3.2/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
 
    
   <body>
     <div class="container">
       <h1>Laravel 5 Authentication</h1>
-
+      
 
       @yield('content')
     </div>
